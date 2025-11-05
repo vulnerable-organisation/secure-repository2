@@ -1,0 +1,14 @@
+{
+  "name": "claimable-dep-demo-secure2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Secure demo repo: includes a scoped package but configured to use a private registry",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.11",
+    "@example-business/utils": "1.0.0"
+  }
+}
